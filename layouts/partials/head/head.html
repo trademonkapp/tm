@@ -2,6 +2,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Restaurant Name</title>
-    <link rel="icon" type="image/png" href="./favicon.png" sizes="96x96">
+    <title>
+        {{- if not .IsHome }}
+        {{- if eq .Kind "page" }}{{ .Title }}
+        {{- else if eq .Data.Singular "tag" }}{{ .Data.Term }}
+        {{- else }}Posts
+        {{- end }} - {{ end }}
+        {{- .Site.Title -}}
+    </title>
+    <link rel="icon" href="{{.Site.BaseURL}}img/favicon.png">
 </head>
