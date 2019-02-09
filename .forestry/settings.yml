@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: layouts/index.html
+  label: Homeage
+  match: "**/*"
 - type: directory
   path: content/pages
   label: Pages
