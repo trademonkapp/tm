@@ -16,6 +16,11 @@ html {
     min-height: calc(100vh - 56px)!important;
 }
 
+.hero {
+	background-size:cover;
+	background-position: 50% 50%;
+}
+
 .top    { align-items:     flex-start; }
 .right  { justify-content: flex-end;   }
 .bottom { align-items:     flex-end;   }
