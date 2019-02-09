@@ -16,6 +16,12 @@ html {
     min-height: calc(100vh - 56px)!important;
 }
 
+@media (min-width: 1024px) {
+.has-large-padding {
+	padding: 3rem;
+}
+}
+
 .hero {
 	background-size:cover;
 	background-position: 50% 50%;

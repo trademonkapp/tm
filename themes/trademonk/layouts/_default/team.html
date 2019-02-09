@@ -1,3 +1,6 @@
 {{ define "main" }}
-{{.Content}}
+<div class="columns is-marginless">
+    {{ partial "ranges/team.html" . }}
+    {{ partial "sections/team.html" . }}
+</div>
 {{end}}
