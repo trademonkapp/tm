@@ -1,3 +1,4 @@
 baseURL = "https://priceless-swartz-95c605.netlify.com/"
 languageCode = "en-us"
 title = "Restaurant"
+theme = "trademonk"
