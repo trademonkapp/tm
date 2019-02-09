@@ -1,10 +1,10 @@
-<div class="column is-one-quarter has-background-white-bis has-large-padding">
+<div class="column is-half has-huge-padding">
     <section>
         {{ $currentPage := . }}
         <ul>
         {{ range .Site.Menus.team }}
             <li>
-                    <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "team" .) ($currentPage.HasMenuCurrent "team" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                    <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent `team` .) ($currentPage.HasMenuCurrent `team` .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
             </li>
         {{ end }}
         </ul>

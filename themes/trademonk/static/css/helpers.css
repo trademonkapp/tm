@@ -2,6 +2,32 @@ html {
     overflow-y: auto;
 }
 
+body {
+	font-family: Avenir;
+}
+
+.title {
+	font-family: futura-pt, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+a.sidebar-nav-item {
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+a.sidebar-nav-item:active {
+	color:#ffffff;
+}
+
+.subtitle {
+	font-family: lemonde-journal, serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
 .center, .center-column, .top, .right, .bottom, .left {
 	display: flex;
 	justify-content: center;
@@ -17,12 +43,15 @@ html {
 }
 
 .hero.is-fullheight-with-navbar-and-description {
-    min-height: calc(100vh - 25vh - 56px)!important;
+    min-height: calc(100vh - 40vh - 56px)!important;
 }
 
 @media (min-width: 1024px) {
 .has-large-padding {
-	padding: 3rem;
+	padding: 3rem 4rem;
+}
+.has-huge-padding {
+	padding: 4rem 5rem;
 }
 }
 
