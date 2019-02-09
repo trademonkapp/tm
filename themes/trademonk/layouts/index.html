@@ -1,8 +1,3 @@
-<html lang="en">
-    {{ partial "head/head.html" . }}
-    {{ partial "header/header.html" . }}
-<body>
-{{ partial "body/hero-header.html" . }}
-</body>
-{{ partial "footer/footer.html" . }}
-</html>
+{{ define "main" }}
+{{.Content}}
+{{end}}
