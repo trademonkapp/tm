@@ -1,0 +1,36 @@
+---
+label: Menu Item
+hide_body: false
+is_partial: false
+fields:
+- type: file
+  name: photo
+  label: Photo
+  description: Take a nice photo of this dish and upload it here.
+  config:
+    maxSize: '1'
+- type: text
+  name: name
+  label: Name
+  description: What is this dish called?
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: Description
+  description: Describe this dish so your visitors get hungry!
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+- type: number
+  name: price
+  label: Price
+  description: What is the price of this dish.
+  config:
+    min: '0'
+- type: tag_list
+  name: tags
+  label: Tags
+  description: e.g. Vegan
