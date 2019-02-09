@@ -2,7 +2,7 @@ html {
     overflow-y: auto;
 }
 
-body {
+/* body {
 	font-family: Avenir;
 }
 
@@ -12,6 +12,12 @@ body {
 	font-style: normal;
 }
 
+.subtitle {
+	font-family: lemonde-journal, serif;
+	font-weight: 400;
+	font-style: italic;
+} */
+
 a.sidebar-nav-item {
     font-size: 4rem;
     font-weight: 900;
@@ -20,12 +26,6 @@ a.sidebar-nav-item {
 
 a.sidebar-nav-item:active {
 	color:#ffffff;
-}
-
-.subtitle {
-	font-family: lemonde-journal, serif;
-	font-weight: 400;
-	font-style: italic;
 }
 
 .center, .center-column, .top, .right, .bottom, .left {
