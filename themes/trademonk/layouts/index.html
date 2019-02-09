@@ -1,3 +1,10 @@
 {{ define "main" }}
-{{.Content}}
+<section class="hero is-fullheight-with-navbar">
+        <header class="hero-body">
+                <div class="is-overlay has-text-centered single-spaced" style="top: 82px;">
+                    <h1 class="subtitle is-4 has-text-weight-light has-text-black">This Is</h1>
+                    <h2 class="title is-1 has-text-black">{{.Content}}</h2>
+                </div>
+            </header>
+</section>
 {{end}}
