@@ -16,6 +16,10 @@ html {
     min-height: calc(100vh - 56px)!important;
 }
 
+.hero.is-fullheight-with-navbar-and-description {
+    min-height: calc(100vh - 25vh - 56px)!important;
+}
+
 @media (min-width: 1024px) {
 .has-large-padding {
 	padding: 3rem;

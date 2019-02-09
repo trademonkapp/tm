@@ -1,22 +1,12 @@
 <div class="column is-one-quarter has-background-white-bis has-large-padding">
-        <section>
-                {{ range .Pages }}
-            <a href="{{.URL}}" class="media">
-                <figure class="media-left">
-                    <p class="image is-64x64">
-                        <img src="{{.Params.headshot}}" class="is-rounded">
-                    </p>
-                </figure>
-                <div class="media-content">
-                    <div class="content">
-                        <p>
-                            <strong class="is-uppercase is-size-4">{{.Title}}</strong>
-                            <br>
-                            <em>{{.Params.position}}</em>
-                        </p>
-                    </div>
-                </div>
-            </a>
-            {{ end }}
-        </section>
+    <section>
+        {{ $currentPage := . }}
+        <ul>
+        {{ range .Site.Menus.team }}
+            <li>
+                    <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "team" .) ($currentPage.HasMenuCurrent "team" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            </li>
+        {{ end }}
+        </ul>
+    </section>
 </div>
