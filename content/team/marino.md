@@ -1,15 +1,14 @@
 ---
-title: Marino Braccu
+title: Marino Braccuu
 date: 2019-02-07 14:50:22 +0000
-draft: false
-menu: 
-    team:
-        name: "Marino Braccu"
 image: "/uploads/img/marino.jpg"
-position: "General Manager"
+position: General Manager
 headshot: "/uploads/img/marino-headshot.jpg"
-instagram: "https://www.instagram.com/umberto_bombana"
-email: "example@example.com"
+instagram: https://www.instagram.com/umberto_bombana
+email: example@example.com
+menu:
+  team: {}
+
 ---
 “Wine is a journey with different travel companions and different destinations”, says Marino, who wishes to make this trip unforgettable for all guests.
 
