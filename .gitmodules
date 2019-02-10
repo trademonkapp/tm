@@ -1,3 +1,4 @@
-[submodule "themes/casper-two"]
-	path = themes/casper-two
-	url = "https://github.com/eueung/hugo-casper-two" 
+[submodule "themes/trademonk-master-theme"]
+	path = themes/trademonk-master-theme
+	url = "https://github.com/trademonkapp/trademonk-master-theme" 
+ 
