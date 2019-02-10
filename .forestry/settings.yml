@@ -9,6 +9,7 @@ sections:
   label: Team Members
   create: all
   match: "**/*"
+  exclude: _index.md
 - type: document
   path: layouts/index.html
   label: Homeage
