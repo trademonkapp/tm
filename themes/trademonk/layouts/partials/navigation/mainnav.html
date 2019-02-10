@@ -1,10 +1,17 @@
 <nav class="hero-head">
     {{ $currentPage := . }}
     <div class="columns is-mobile is-marginless heading has-text-weight-bold">
-        <div class="column left">
-            <a href="#" class="navbar-item has-text-black">MENU</a>
+        <div class="column left is-paddingless">
+                <ul>
+                        {{ range .Site.Menus.mainleft }}
+                        <li class="horizontal-nav-item">
+                            <a class="navbar-item has-text-black{{if or ($currentPage.IsMenuCurrent `mainleft` .) ($currentPage.HasMenuCurrent `mainleft` .) }} active{{end}}"
+                                href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
         </div>
-        <div class="column center">
+        <div class="column center is-paddingless">
             <ul>
                 {{ range .Site.Menus.main }}
                 <li class="horizontal-nav-item">
@@ -14,7 +21,7 @@
                 {{ end }}
             </ul>
         </div>
-        <div class="column right">
+        <div class="column right is-paddingless">
             <ul>
                 {{ range .Site.Menus.mainright }}
                 <li class="horizontal-nav-item">

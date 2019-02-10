@@ -2,6 +2,10 @@ html {
     overflow-y: auto;
 }
 
+.navbar-item {
+	padding: 0.75rem!important;
+}
+
 .horizontal-nav-item {
 	display: inline-flex;
 }
@@ -16,12 +20,12 @@ html {
     flex-direction: column;
 }
 
-.hero.is-fullheight-with-navbar {
-    min-height: calc(100vh - 56px)!important;
+.hero.is-fullheight-with-mainnav {
+    min-height: calc(100vh - 40px)!important;
 }
 
-.hero.is-fullheight-with-navbar-and-description {
-    min-height: calc(100vh - 40vh - 56px)!important;
+.hero.is-fullheight-with-mainnav-and-subnav {
+    min-height: calc(100vh - 80px)!important;
 }
 
 @media (min-width: 1024px) {
