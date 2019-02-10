@@ -1,5 +1,5 @@
 ---
-title: Marino Braccuu
+title: Marino Braccu
 date: 2019-02-07 14:50:22 +0000
 image: "/uploads/img/marino.jpg"
 position: General Manager
