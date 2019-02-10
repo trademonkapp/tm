@@ -1,0 +1,15 @@
+<nav class="hero-head has-background-white-ter">
+    {{ $currentPage := . }}
+    <div class="columns is-mobile is-marginless heading has-text-weight-bold">
+        <div class="column center is-paddingless">
+            <ul>
+                {{ range .Site.Menus.menu }}
+                <li class="horizontal-nav-item">
+                    <a class="navbar-item has-text-black{{if or ($currentPage.IsMenuCurrent `menu` .) ($currentPage.HasMenuCurrent `menu` .) }} active{{end}}"
+                        href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</nav>
