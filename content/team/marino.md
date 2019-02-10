@@ -7,7 +7,8 @@ headshot: "/uploads/img/marino-headshot.jpg"
 instagram: https://www.instagram.com/umberto_bombana
 email: example@example.com
 menu:
-  team: {}
+  team:
+    weight: 2
 
 ---
 “Wine is a journey with different travel companions and different destinations”, says Marino, who wishes to make this trip unforgettable for all guests.

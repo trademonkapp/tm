@@ -1,15 +1,15 @@
 ---
 title: Umberto Bombana
 date: 2019-02-08 14:50:22 +0000
-draft: false
-menu: 
-    team:
-        name: "Umberto Bombana"
 image: "/uploads/img/bombana.jpg"
-position: "Chef De Cuisine & Co-Owner"
+position: Chef De Cuisine & Co-Owner
 headshot: "/uploads/img/bombana-headshot.jpg"
-instagram: "https://www.instagram.com/umberto_bombana"
-email: "example@example.com"
+instagram: https://www.instagram.com/umberto_bombana
+email: example@example.com
+menu:
+  team:
+    weight: 1
+
 ---
 Chef Umberto Bombana is back! The acclaimed executive chef of The Ritz-Carlton Hotel Hong Kong’s legendary Italian eatery, Toscana, has returned to the limelight with a new heartfelt, personal ristorante 8 ½  Otto e Mezzo BOMBANA in Central’s Landmark Alexandra. The name is a direct reference to Federico Fellini’s 1963 biographical movie classic. Like the film director, Bombana is a maestro of his art. Delighting the gourmet palate with unique culinary creations, Bombana has been hailed “The King of White Truffles”.
 

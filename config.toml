@@ -1,4 +1,16 @@
 baseURL = "https://trademonk-dev-theme.netlify.com/"
 languageCode = "en-us"
-title = "Restaurant"
 theme = "trademonk-master-theme"
+title = "Restaurant"
+[[menu.main]]
+name = "Team"
+weight = 1
+[[menu.main]]
+name = "Menu"
+weight = 2
+[[menu.mainleft]]
+name = "Home"
+weight = 1
+[[menu.mainright]]
+name = "Make A Reservation"
+weight = 1
