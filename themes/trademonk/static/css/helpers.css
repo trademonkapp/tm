@@ -2,30 +2,8 @@ html {
     overflow-y: auto;
 }
 
-/* body {
-	font-family: Avenir;
-}
-
-.title {
-	font-family: futura-pt, sans-serif;
-	font-weight: 600;
-	font-style: normal;
-}
-
-.subtitle {
-	font-family: lemonde-journal, serif;
-	font-weight: 400;
-	font-style: italic;
-} */
-
-a.sidebar-nav-item {
-    font-size: 4rem;
-    font-weight: 900;
-    letter-spacing: -2px;
-}
-
-a.sidebar-nav-item:active {
-	color:#ffffff;
+.horizontal-nav-item {
+	display: inline-flex;
 }
 
 .center, .center-column, .top, .right, .bottom, .left {

@@ -1,13 +1,28 @@
 <nav class="hero-head">
+    {{ $currentPage := . }}
     <div class="columns is-mobile is-marginless heading has-text-weight-bold">
         <div class="column left">
             <a href="#" class="navbar-item has-text-black">MENU</a>
         </div>
         <div class="column center">
-            <a href="{{ .Site.BaseURL | relLangURL }}" class="navbar-item has-text-black">Restaurant Theme</a>
+            <ul>
+                {{ range .Site.Menus.main }}
+                <li class="horizontal-nav-item">
+                    <a class="navbar-item has-text-black{{if or ($currentPage.IsMenuCurrent `main` .) ($currentPage.HasMenuCurrent `main` .) }} active{{end}}"
+                        href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
         </div>
         <div class="column right">
-            <a href="#" class="navbar-item has-text-black">CONTACT US</a>
+            <ul>
+                {{ range .Site.Menus.mainright }}
+                <li class="horizontal-nav-item">
+                    <a class="navbar-item has-text-black{{if or ($currentPage.IsMenuCurrent `mainright` .) ($currentPage.HasMenuCurrent `mainright` .) }} active{{end}}"
+                        href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
         </div>
     </div>
 </nav>
