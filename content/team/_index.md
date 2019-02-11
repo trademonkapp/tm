@@ -5,5 +5,7 @@ image: "/uploads/img/otto-e-mezzo-hong-kong-team.jpg"
 menu: 
     main:
         name: "Team"
+backgroundfrom: "#a1132b"
+backgroundto: "#be122a"
 ---
 This is the team page.

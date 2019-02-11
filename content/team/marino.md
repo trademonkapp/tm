@@ -5,6 +5,8 @@ draft: false
 menu: 
     team:
         name: "Marino Braccu"
+backgroundfrom: "#a1132b"
+backgroundto: "#be122a"
 image: "/uploads/img/marino.jpg"
 position: "General Manager"
 headshot: "/uploads/img/marino-headshot.jpg"

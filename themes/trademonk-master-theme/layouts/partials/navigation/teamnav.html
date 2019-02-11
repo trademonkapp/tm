@@ -1,15 +1,13 @@
-<nav class="hero-head has-background-white-ter">
-    {{ $currentPage := . }}
-    <div class="columns is-mobile is-marginless heading has-text-weight-bold">
-        <div class="column center is-paddingless">
-            <ul>
-                {{ range .Site.Menus.team }}
-                <li class="horizontal-nav-item">
-                    <a class="navbar-item has-text-black{{if or ($currentPage.IsMenuCurrent `team` .) ($currentPage.HasMenuCurrent `team` .) }} active{{end}}"
-                        href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-                </li>
-                {{ end }}
-            </ul>
-        </div>
+<div class="column is-paddingless" style="background-image:linear-gradient(to top, {{.Site.Params.themeBgFrom}} 0%, {{.Site.Params.themeBgTo}} 100%);">
+    <div class="is-flex is-fullheight-with-mainnav is-vertical-center is-sticky">
+    <ul class="menu-list is-width-100 has-text-centered">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.team }}
+        <li>
+                <a class="is-size-1 aside-menu-item{{if or ($currentPage.IsMenuCurrent `team` .) ($currentPage.HasMenuCurrent `team` .) }} active{{end}}"
+                    href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            </li>
+        {{ end }}
+    </ul>
     </div>
-</nav>
+</div>

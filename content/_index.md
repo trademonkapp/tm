@@ -5,5 +5,7 @@ image: "/uploads/img/otto-e-mezzo-bombana-hk.jpg"
 menu: 
     mainleft:
         name: "Home"
+backgroundfrom: "#a1132b"
+backgroundto: "#be122a"
 ---
 This is the homepage.

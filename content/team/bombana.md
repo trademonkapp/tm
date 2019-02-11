@@ -5,6 +5,8 @@ draft: false
 menu: 
     team:
         name: "Umberto Bombana"
+backgroundfrom: "#a1132b"
+backgroundto: "#be122a"
 image: "/uploads/img/bombana.jpg"
 position: "Chef De Cuisine & Co-Owner"
 headshot: "/uploads/img/bombana-headshot.jpg"
