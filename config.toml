@@ -4,5 +4,6 @@ title = "Restaurant"
 theme = "trademonk-master-theme"
 
 [params]
-themeBgFrom = "#fff"
+themeBgFrom = "#fffcfc"
 themeBgTo = "#fafafa"
+asideColor = "#000"
